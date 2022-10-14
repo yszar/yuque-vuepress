@@ -120,3 +120,7 @@ package-lock.json
 
 yarn.lock
 .idea
+
+!.prettierrc.js
+!.stylelintrc.js
+!.eslintrc.js
