@@ -23,16 +23,10 @@
     "语雀"
   ],
   "lint-staged": {
-    "src/**/*.{js,ts,vue}": [
+    "*.{js,css,md,ts,vue}": [
       "eslint --fix",
       "git add ."
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run test",
-      "commit-msg": "commitlint -e $HUSKY_GIT_PARAMS"
-    }
   },
   "author": "jiuyang",
   "license": "MIT",
@@ -42,6 +36,7 @@
     "cz-git": "^1.3.11",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
+    "mrm": "^4.1.6",
     "prettier": "^2.7.1",
     "standard-version": "^9.5.0"
   }
