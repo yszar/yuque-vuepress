@@ -3,6 +3,9 @@
 module.exports = {
     rules: {
         // @see: https://commitlint.js.org/#/reference-rules
+        'type-enum': [2, 'always', [
+            'build', 'ci', 'perf', 'feat', 'fix', 'refactor', 'docs', 'chore', 'style', 'revert', 'test'
+        ]],
     },
     extends: ['@commitlint/config-conventional'],
     prompt: {
@@ -20,9 +23,9 @@ module.exports = {
             confirmCommit: '是否提交或修改commit ?'
         },
         types: [
-            {value: 'feat', name: 'feat:     ✨ 新增功能 | A new feature', emoji: ":sparkles:"},
+            {value: 'feat', name: 'feat:     ✨ 新增功能 | A new feature', emoji: "✨"},
             {value: 'fix', name: 'fix:      🐛 修复缺陷 | A bug fix', emoji: ":bug:"},
-            {value: 'docs', name: 'docs:     📝 文档更新 | Documentation only changes', emoji: ":memo:"},
+            {value: 'docs', name: 'docs:     📝 文档更新 | Documentation only changes', emoji: "🐛"},
             {
                 value: 'style',
                 name: 'style:    💄 代码格式 | Changes that do not affect the meaning of the code',
@@ -30,7 +33,7 @@ module.exports = {
             },
             {
                 value: 'refactor',
-                name: 'refactor:    ♻️代码重构 | A code change that neither fixes a bug nor adds a feature',
+                name: 'refactor:  ♻️代码重构 | A code change that neither fixes a bug nor adds a feature',
                 emoji: ":recycle:"
             },
             {value: 'perf', name: 'perf:     ⚡️ 性能提升 | A code change that improves performance', emoji: ":zap:"},
