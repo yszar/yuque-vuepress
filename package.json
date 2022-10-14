@@ -1,0 +1,12 @@
+{
+  "name": "yuque-vuepress",
+  "version": "1.0.0",
+  "description": "A downloader for articles from yuque",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["yuque","vuepress","语雀"],
+  "author": "jiuyang",
+  "license": "MIT"
+}
