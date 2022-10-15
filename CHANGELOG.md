@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/yszar/yuque-vuepress/compare/v1.0.0...v1.0.1) (2022-10-15)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* :bug: 修复bug ([608bc7b](https://github.com/yszar/yuque-vuepress/commit/608bc7b42ec2e8a1b0d9886475cd03b0e08097c3))
+
+
+### ✏️ Documentation | 文档
+
+* :memo: test ([f4c065e](https://github.com/yszar/yuque-vuepress/commit/f4c065e1f38aa3d54aa9c1ca3eaa4d9802fa3640))
+* :memo: 更新文档 ([050500c](https://github.com/yszar/yuque-vuepress/commit/050500c5f5c95e87597cc0a806821c60ed0f74d5))
+
 ## 1.0.0 (2022-10-14)
 
 

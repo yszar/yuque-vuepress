@@ -1,6 +1,6 @@
 {
   "name": "yuque-vuepress",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A downloader for articles from yuque",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,10 @@
     "语雀"
   ],
   "lint-staged": {
-    "*.{js,css,md,ts,vue}": "eslint --cache --fix"
+    "*.{js}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "author": "jiuyang",
   "license": "MIT",
